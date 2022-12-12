@@ -1,0 +1,33 @@
+{
+  "name": "cf-worker-mqtt-relay",
+  "version": "1.0.0",
+  "description": "A relay server that allows you to perform simple communication with external MQTT servers in Cloudflare Worker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --testTimeout=15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungjuneKwon/cloudflare-worker-mqtt-relay.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "mqtt",
+    "relay"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoungjuneKwon/cloudflare-worker-mqtt-relay/issues"
+  },
+  "homepage": "https://github.com/YoungjuneKwon/cloudflare-worker-mqtt-relay#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "jest": "29.3.1"
+  }
+}
